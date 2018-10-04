@@ -1,0 +1,7 @@
+
+{
+    "dev_endpoint":"insira endpoint da api de autenticação de DEV",
+    "qa_endpoint":"insira endpoint da api de autenticação de QA",
+    "login": "insira seu login",
+    "password": "insira sua senha"
+}

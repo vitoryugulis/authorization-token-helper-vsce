@@ -1,0 +1,44 @@
+{
+    "name": "auth",
+    "displayName": "AuthorizationTokenHelper",
+    "description": "Extensão com o propósito de enviar uma requisição post para nossa API de autenticação, recuperar a resposta com o token, e inserir o cookie de autenticação no app.module.ts do projeto",
+    "version": "0.0.1",
+    "publisher": "VitorYugulis",
+    "engines": {
+        "vscode": "^1.24.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.getQaToken",
+        "onCommand:extension.getDevToken"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.getQaToken",
+                "title": "requireqatoken"
+            },
+            {
+                "command": "extension.getDevToken",
+                "title": "requiredevtoken"
+            }
+        ]
+    },
+    "scripts": {
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "tslint": "^5.8.0",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "@types/request": "^2.47.1",
+        "request": "^2.87.0",
+        "request-promise-native": "^1.0.5"
+    }
+}
