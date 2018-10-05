@@ -2,10 +2,10 @@
     "name": "auth",
     "displayName": "AuthorizationTokenHelper",
     "description": "Extensão com o propósito de enviar uma requisição post para nossa API de autenticação, recuperar a resposta com o token, e inserir o cookie de autenticação no app.module.ts do projeto",
-    "version": "0.0.1",
+    "version": "0.0.5",
     "publisher": "VitorYugulis",
     "engines": {
-        "vscode": "^1.24.0"
+        "vscode": "^1.19.1"
     },
     "categories": [
         "Other"
