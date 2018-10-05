@@ -1,0 +1,6 @@
+{
+    "dev_endpoint":"insira aqui o endpoint de DEV",
+    "qa_endpoint":"insira aqui o endpoint de QA",
+    "login": "insira aqui o login",
+    "password": "insira aqui a senha"
+}
